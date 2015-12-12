@@ -1,0 +1,64 @@
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > .navbarHighlight{
+  height: 4px;
+  background-color: #49ef49;
+}
+
+.londonBG{
+	background-image:url(../images/londonBG.jpg);
+	
+}
+
+.friendsBG{
+	background-image:url(../images/friendsBG.jpg);
+
+}
+
+.largeDIV{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+}
+
+.mediumDIV{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+.smallDIV{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30vh;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.light-text{
+	color: #ffffff;
+}
+
+body{
+	padding-top: 50px;
+}
+
+.transButton, .transButton:hover, .transButton:active{
+	background-color: transparent;
+	color: #49ef49;
+	border: 0;
+	font-weight: ;
+
+}

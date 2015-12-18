@@ -12,7 +12,7 @@
 }
 
 .londonBG{
-	background-image:url(../images/londonBG.jpg);
+	background-image:url(../images/upBG.jpg);
 	
 }
 
@@ -24,13 +24,13 @@
 .largeDIV{
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 75vh;
+	height: 80vh;
 }
 
 .mediumDIV{
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 70vh;
 }
 
 .smallDIV{
@@ -57,7 +57,7 @@ body{
 
 .transButton, .transButton:hover, .transButton:active{
 	background-color: transparent;
-	color: #49ef49;
+	color: #ffffff;
 	border: 0;
 	font-weight: ;
 

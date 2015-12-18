@@ -31,44 +31,31 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Student Share</a>
+            <a class="navbar-brand" href="index.html" style="color:#ffffff">Student Share</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a>
-                <div class="navbarHighlight"></div>
-              </li>
-              <li><a href="flats.html">Flats</a></li>
+              <li><a href="flats.html">Recent Listings</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class=""><a href="login.html">Log In</a>
               </li>
             </ul>
-            <form class="navbar-form navbar-right" role="search">
-              <div class="form-group has-feedback">
-                <input type="text" class="form-control" placeholder="Search">
-                <i class="form-control-feedback glyphicon glyphicon-search "></i>
-              </div>
-              <a href="searchResults.html">
-                <button type="button" class="btn btn-default">Go!</button>
-              </a>
-            </form>
+            
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
 
       <div class="jumbotron londonBG largeDIV">
         <div class="container" >
-          <div class="row"> </br></div>
-          <div class="row"></br> </div>
           <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6 light-text" style="text-align: center">
             </br>
-            <h3>Looking For a Room?</h3>
+            <h3>Looking For a Place to Live?</h3>
           </div>
           <div class="col-lg-3"></div>
         </div>
@@ -96,164 +83,181 @@
         </div><!-- /.row -->
       </br>
       <div class="row">
-        <div class="col-lg-offset-3 col-lg-6">
-          <div class="dropdown">
-            <div class="btn-toolbar" role="toolbar" aria-label="...">
-              <div class="btn-group" role="group">
-                <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <span class="glyphicon glyphicon-gbp" aria-hidden="true"></span>
-                  150-250
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">0-150</a></li>
-                  <li><a href="#">150-250</a></li>
-                  <li><a href="#">250+</a></li>
-                </ul>
-              </div>
-              <div class="btn-group" role="group">
-                <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  1-2
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">1-2</a></li>
-                  <li><a href="#">3-4</a></li>
-                  <li><a href="#">5+</a></li>
-                </ul>
-              </div>
-              <div class="btn-group " role="group">
-                <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                  less than 0.25 miles
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">less than 0.25 miles</a></li>
-                  <li><a href="#">less than 0.5 miles</a></li>
-                  <li><a href="#">less than 1 mile</a></li>
-                  <li><a href="#">less than 3 miles</a></li>
-                  <li><a href="#">less than 5 miles</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div><!-- /.col-lg-6 -->
-        <div class="col-lg-3"></div>
-      </div><!-- /.row -->
-      
-      <div class="row">
         <div class="col-lg-offset-3 col-lg-6 light-text">
-          <button class="btn btn-default transButton" data-toggle="collapse" data-target="#demo">Interests &amp; Preferences <span class="caret"></button>
-          <div id="demo" class="collapse">
-            <div class="row" >
-              <div class="col-lg-12" style="text-align:center">
-                <h4>Interests</h4>
-              </div>
-            </div>
+          <button class="btn btn-default transButton" data-toggle="collapse" data-target="#advanced"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Advanced Search </button>
+          <div id="advanced" class="collapse">
             <div class="row">
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Partying
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Cooking
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Sports
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Gaming
-              </div>
-            </div>
+              <div class="col-lg-6">
+                <div class="dropdown">
+                  <div class="btn-toolbar" role="toolbar" aria-label="...">
+                    <div class="btn-group " role="group">
+                      <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                        Distance: Any
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Any</a></li>
+                        <li><a href="#">less than 0.25 miles (4 minutes walk)</a></li>
+                        <li><a href="#">less than 0.5 miles (8 minutes walk)</a></li>
+                        <li><a href="#">less than 1 mile (15 minutes walk)</a></li>
+                        <li><a href="#">less than 3 miles (45 minutes walk)</a></li>
+                        <li><a href="#">less than 5 miles (65 minutes walk)</a></li>
+                      </ul>
+                    </div>
+                    <div class="btn-group" role="group">
+                      <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-gbp" aria-hidden="true"></span>
+                        Price / Week: Any
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Any</a></li>
+                        <li><a href="#">0-150</a></li>
+                        <li><a href="#">150-250</a></li>
+                        <li><a href="#">250+</a></li>
+                      </ul>
+                    </div>
+                    <div class="btn-group" role="group">
+                      <button class="btn btn-default dropdown-toggle transButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        Flatmates: Any
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Any</a></li>
+                        <li><a href="#">1-2</a></li>
+                        <li><a href="#">3-4</a></li>
+                        <li><a href="#">5+</a></li>
+                      </ul>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div><!-- /.col-lg-6 -->
+              <div class="col-lg-3"></div>
+            </div><!-- /.row -->
+
             <div class="row">
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Arts &amp; Crafts
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Movies
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Music
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Photography
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12" style="text-align:center">
-                <h4>Preferences</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;NO Smoking
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Vegetarian
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Vegan
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Gaming
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;English
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Movies
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Music
-              </div>
-              <div class="col-lg-3 light-text" style="text-align: left">
-                <input type="checkbox"/>&nbsp;Photography
+              <div class="col-lg-12 light-text">
+                <button class="btn btn-default transButton" data-toggle="collapse" data-target="#interests">Interests &amp; Preferences <span class="caret"></button>
+                <div id="interests" class="collapse">
+                  <div class="row" >
+                    <div class="col-lg-12" style="text-align:center">
+                      <h4>Interests</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Partying
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Cooking
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Sports
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Gaming
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Arts &amp; Crafts
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Movies
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Music
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Photography
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12" style="text-align:center">
+                      <h4>Preferences</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;NO Smoking
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Vegetarian
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Vegan
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Couples OK
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;NO Pets
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Movies
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Music
+                    </div>
+                    <div class="col-lg-3 light-text" style="text-align: left">
+                      <input type="checkbox"/>&nbsp;Photography
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="jumbotron largeDIV friendsBG" id="share">
-  <a href="#share"><button class="btn btn-success">Looking to Share a Flat?</button></a>
-  <div class="container" >
-    <div class="row"> </br></div>
-    <div class="row"></br> </div>
-    <div class="row"> </br></div>
-    <div class="row"> </br></div>
+  <div class="jumbotron largeDIV friendsBG" id="share">
+    <div class="container" >
+    <div class="row" style="position:relative; margin-top:0;">
+      <div class="col-lg-offset-4 col-lg-4">
+        <a href="#share"><button style="top:0;margin-top:0;"class="btn btn-success btn-block">Looking to Share a Flat?</button></a>
+      </div>
+    </div>
+      
+      <div class="row"> </br></div>
+      <div class="row"></br> </div>
+      <div class="row"> </br></div>
+      <div class="row"> </br></div>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 light-text" style="text-align: center">
+        </br>
+        <h3>Looking For a Flatmate?</h3>
+      </div>
+      <div class="col-lg-3"></div>
+    </div>
     <div class="row">
       <div class="col-lg-3"></div>
       <div class="col-lg-6 light-text" style="text-align: center">
-      </br>
-      <h3>Looking For a Flatmate?</h3>
+        <span>Post an ad for your flat and someone will like it!</span><br></br>
+      </div>
+      <div class="col-lg-3"></div>
     </div>
-    <div class="col-lg-3"></div>
-  </div>
-  <div class="row">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6 light-text" style="text-align: center">
-      <span>Post an ad for your flat and someone will like it!</span><br></br>
-    </div>
-    <div class="col-lg-3"></div>
-  </div>
-  <div class="row"> </div>
+    <div class="row"> </div>
 
-  <div class="row">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6">
-      <a href="login.html">
-        <button class="btn btn-success btn-block " type="button">Share Your Flat!</button>
-      </a>
-    </div><!-- /.col-lg-6 -->
-    <div class="col-lg-3"></div>
-  </div><!-- /.row -->
-</div>
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+        <a href="login.html">
+          <button class="btn btn-success btn-block " type="button">Share Your Flat!</button>
+        </a>
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-3"></div>
+    </div><!-- /.row -->
+  </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

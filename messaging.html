@@ -31,16 +31,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Student Share</a>
+                    <a class="navbar-brand" href="index.html">Student Share</a>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a>
-              <div class="navbarHighlight"></div>
-            </li>
-            <li><a href="flats.html">Flats</a></li>
+            <li><a href="flats.html">Recent Listings</a></li>
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -54,15 +52,6 @@
               </ul>
             </li>
           </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group has-feedback">
-              <input type="text" class="form-control" placeholder="Search">
-              <i class="form-control-feedback glyphicon glyphicon-search "></i>
-            </div>
-             <a href="searchResults.html">
-              <button type="button" class="btn btn-default">Go!</button>
-            </a>
-          </form>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -108,16 +97,23 @@
     </div>
     <div class="row" style="margin-bottom:10px;">
       <div class="col-lg-offset-2 col-lg-8">
-        <textarea class="form-control" placeholder="Message" rows="10"></textarea>
+        <textarea class="form-control" placeholder="Message (Include your contact information and what you want to know more about!" rows="10"></textarea>
+      </div>
+      <div class="col-lg-2">
+        <p>(*write 10-200 words)</p>
       </div>
     </div>
     <div class="row" style="margin-bottom:10px;">
       <div class="col-lg-offset-5 col-lg-2">
-          <button type="button" class="btn btn-success" style="width:100%;">Send</button>
+          <a href="post1.html" onclick="myFunction()" ><button type="button" class="btn btn-success" style="width:100%;">Send</button></a>
       </div>
     </div>
 
-
+    <script>
+      function myFunction() {
+          alert("Message sent, just wait for a reply! :D");
+      }
+    </script>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
